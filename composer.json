@@ -1,0 +1,44 @@
+{
+  "name": "silpo-tech/exception-handler-bundle",
+  "type": "symfony-bundle",
+  "description": "Exception handler for Symfony",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "symfony/dependency-injection": "^6.0|^7.0",
+    "symfony/http-kernel": "^6.0|^7.0",
+    "symfony/config": "^6.0|^7.0",
+    "mark-gerarts/auto-mapper-plus": "^1.4",
+    "symfony/yaml": "^6.0|^7.2"
+  },
+  "require-dev": {
+    "symfony/validator": "^6.0|^7.0",
+    "symfony/form": "^6.0|^7.0",
+    "phpunit/phpunit": "^11.4|^12.0",
+    "friendsofphp/php-cs-fixer": "^3.0",
+    "phpstan/phpstan": "^2.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "SilpoTech\\ExceptionHandlerBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SilpoTech\\ExceptionHandlerBundle\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "scripts": {
+    "test:coverage": {
+      "command": "APP_ENV=test php -d extension=pcov.so -d pcov.enabled=1 bin/phpunit --colors=never --coverage-clover reports/coverage/clover.xml --log-junit reports/junit.xml"
+    },
+    "test:run": [
+      "APP_ENV=test php bin/phpunit --color=always"
+    ]
+  }
+}
