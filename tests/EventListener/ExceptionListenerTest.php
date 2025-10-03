@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\EventListener;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
-use Psr\Log\LoggerInterface;
 use ExceptionHandlerBundle\EventListener\ExceptionListener;
 use ExceptionHandlerBundle\Handler\ExceptionHandler;
 use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
 use ExceptionHandlerBundle\Tests\Stub\HttpExceptionStub;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

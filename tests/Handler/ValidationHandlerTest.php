@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\Handler;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\Exception\ValidationException;
 use ExceptionHandlerBundle\Exception\ValidationExceptionInterface;
 use ExceptionHandlerBundle\ExceptionHandlerMessages;
 use ExceptionHandlerBundle\Handler\ValidationHandler;
 use ExceptionHandlerBundle\ValidationHandlerMessages;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\ConstraintViolation;
 

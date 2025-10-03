@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\Handler;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
 use ExceptionHandlerBundle\ValidationHandlerMessages;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\ConstraintViolation;

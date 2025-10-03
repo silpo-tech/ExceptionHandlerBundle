@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\Handler;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\Exception\ValidationException;
 use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
 use ExceptionHandlerBundle\Handler\ExceptionHandler;
@@ -13,6 +11,8 @@ use ExceptionHandlerBundle\Handler\ExceptionHandlerInterface;
 use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
 use ExceptionHandlerBundle\Handler\FormValidationHandler;
 use ExceptionHandlerBundle\Handler\ValidationHandler;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
 class ExceptionHandlerResolverTest extends TestCase

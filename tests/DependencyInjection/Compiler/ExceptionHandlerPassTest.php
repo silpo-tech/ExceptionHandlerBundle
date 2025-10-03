@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\DependencyInjection\Compiler;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\DependencyInjection\Compiler\ExceptionHandlerPass;
 use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
 use ExceptionHandlerBundle\Handler\ExceptionHandler;
@@ -13,6 +11,8 @@ use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
 use ExceptionHandlerBundle\Handler\FormValidationHandler;
 use ExceptionHandlerBundle\Handler\MapperExceptionHandler;
 use ExceptionHandlerBundle\Handler\ValidationHandler;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class ExceptionHandlerPassTest extends TestCase

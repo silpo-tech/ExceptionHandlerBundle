@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\Handler;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\Handler\ExceptionHandler;
 use ExceptionHandlerBundle\Tests\Stub\ApiCallExceptionStub;
 use ExceptionHandlerBundle\Tests\Stub\HttpAwareExceptionStub;
 use ExceptionHandlerBundle\Tests\Stub\HttpExceptionStub;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 class ExceptionHandlerTest extends TestCase
 {

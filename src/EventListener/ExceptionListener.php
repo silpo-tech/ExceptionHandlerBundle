@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\EventListener;
 
-use Psr\Log\LoggerInterface;
 use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\ErrorHandler\Exception\FlattenException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

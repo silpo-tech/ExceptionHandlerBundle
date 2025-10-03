@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests;
 
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\DependencyInjection\Compiler\ExceptionHandlerPass;
 use ExceptionHandlerBundle\ExceptionHandlerBundle;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

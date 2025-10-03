@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace ExceptionHandlerBundle\Tests\Handler;
 
 use AutoMapperPlus\Exception\UnsupportedSourceTypeException;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\ExceptionHandlerMessages;
 use ExceptionHandlerBundle\Handler\MapperExceptionHandler;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 class MapperExceptionHandlerTest extends TestCase
 {

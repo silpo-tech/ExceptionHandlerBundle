@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\DependencyInjection;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\DependencyInjection\ExceptionHandlerExtension;
 use ExceptionHandlerBundle\EventListener\ExceptionListener;
 use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
 use ExceptionHandlerBundle\Handler\ExceptionHandler;
 use ExceptionHandlerBundle\Handler\FormValidationHandler;
 use ExceptionHandlerBundle\Handler\ValidationHandler;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class ExceptionHandlerExtensionTest extends TestCase

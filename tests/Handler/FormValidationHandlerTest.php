@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace ExceptionHandlerBundle\Tests\Handler;
 
-use PHPUnit\Framework\TestCase;
 use ExceptionHandlerBundle\Exception\FormValidationException;
 use ExceptionHandlerBundle\Exception\FormValidationExceptionInterface;
 use ExceptionHandlerBundle\Handler\FormValidationHandler;
 use ExceptionHandlerBundle\Tests\Stub\Form\ProductTypeStub;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Form\Extension\Validator\ValidatorExtension;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Form\Forms;
