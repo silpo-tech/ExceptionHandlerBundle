@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Handler;
+namespace ExceptionHandlerBundle\Tests\Handler;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\ValidationHandlerMessages;
+use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
+use ExceptionHandlerBundle\ValidationHandlerMessages;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\ConstraintViolation;

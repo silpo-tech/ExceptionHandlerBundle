@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\EventListener;
+namespace ExceptionHandlerBundle\EventListener;
 
 use Psr\Log\LoggerInterface;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
+use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
 use Symfony\Component\ErrorHandler\Exception\FlattenException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

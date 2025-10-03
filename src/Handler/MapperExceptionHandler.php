@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Handler;
+namespace ExceptionHandlerBundle\Handler;
 
 use AutoMapperPlus\Exception\UnsupportedSourceTypeException;
-use SilpoTech\ExceptionHandlerBundle\ExceptionHandlerMessages;
+use ExceptionHandlerBundle\ExceptionHandlerMessages;
 use Symfony\Component\HttpFoundation\Response;
 
 class MapperExceptionHandler extends ExceptionHandler

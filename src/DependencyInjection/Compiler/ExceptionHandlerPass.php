@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\DependencyInjection\Compiler;
+namespace ExceptionHandlerBundle\DependencyInjection\Compiler;
 
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
-use SilpoTech\ExceptionHandlerBundle\Handler\MapperExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
+use ExceptionHandlerBundle\Handler\MapperExceptionHandler;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Handler;
+namespace ExceptionHandlerBundle\Handler;
 
-use SilpoTech\ExceptionHandlerBundle\Exception\ValidationExceptionInterface;
+use ExceptionHandlerBundle\Exception\ValidationExceptionInterface;
 use Symfony\Component\Validator\ConstraintViolation;
 
 class ValidationHandler extends ExceptionHandler

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Exception;
+namespace ExceptionHandlerBundle\Exception;
 
-use SilpoTech\ExceptionHandlerBundle\ExceptionHandlerMessages;
+use ExceptionHandlerBundle\ExceptionHandlerMessages;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 

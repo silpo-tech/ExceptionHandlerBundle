@@ -67,16 +67,8 @@ parameters:
   validation_snake_case: false
 ```
 
-#### Run tests locally
+## Tests ##
 
-Install composer
-
-```bash
-docker run --rm -v $(pwd):/workspace -w /workspace composer:2 composer install
-```
-
-And then run test
-
-```bash
-docker run --rm -v $(pwd):/workspace -w /workspace php:8.3-cli php bin/phpunit --color=always
+```shell
+composer test:run
 ```

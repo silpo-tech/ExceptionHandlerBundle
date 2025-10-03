@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Stub;
+namespace ExceptionHandlerBundle\Tests\Stub;
 
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 

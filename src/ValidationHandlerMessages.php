@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle;
+namespace ExceptionHandlerBundle;
 
 use Symfony\Component\Validator\Constraints\Choice;
 use Symfony\Component\Validator\Constraints\Count;

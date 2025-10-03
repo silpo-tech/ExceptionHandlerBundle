@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Handler;
+namespace ExceptionHandlerBundle\Tests\Handler;
 
 use AutoMapperPlus\Exception\UnsupportedSourceTypeException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\ExceptionHandlerMessages;
-use SilpoTech\ExceptionHandlerBundle\Handler\MapperExceptionHandler;
+use ExceptionHandlerBundle\ExceptionHandlerMessages;
+use ExceptionHandlerBundle\Handler\MapperExceptionHandler;
 
 class MapperExceptionHandlerTest extends TestCase
 {

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Handler;
+namespace ExceptionHandlerBundle\Tests\Handler;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\Exception\ValidationException;
-use SilpoTech\ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandlerInterface;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
-use SilpoTech\ExceptionHandlerBundle\Handler\FormValidationHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ValidationHandler;
+use ExceptionHandlerBundle\Exception\ValidationException;
+use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandlerInterface;
+use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
+use ExceptionHandlerBundle\Handler\FormValidationHandler;
+use ExceptionHandlerBundle\Handler\ValidationHandler;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
 class ExceptionHandlerResolverTest extends TestCase

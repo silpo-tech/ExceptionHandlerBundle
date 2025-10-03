@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Stub;
+namespace ExceptionHandlerBundle\Tests\Stub;
 
-use SilpoTech\ExceptionHandlerBundle\Exception\HttpAwareExceptionInterface;
+use ExceptionHandlerBundle\Exception\HttpAwareExceptionInterface;
 
 class HttpAwareExceptionStub extends \Exception implements HttpAwareExceptionInterface
 {

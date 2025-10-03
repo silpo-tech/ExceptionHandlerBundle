@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Stub;
+namespace ExceptionHandlerBundle\Tests\Stub;
 
-use SilpoTech\ExceptionHandlerBundle\Exception\ApiCallExceptionInterface;
+use ExceptionHandlerBundle\Exception\ApiCallExceptionInterface;
 
 class ApiCallExceptionStub extends \Exception implements ApiCallExceptionInterface
 {

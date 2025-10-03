@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Handler;
+namespace ExceptionHandlerBundle\Handler;
 
-use SilpoTech\ExceptionHandlerBundle\Exception\ApiCallExceptionInterface;
-use SilpoTech\ExceptionHandlerBundle\Exception\HttpAwareExceptionInterface;
-use SilpoTech\ExceptionHandlerBundle\ExceptionHandlerMessages;
+use ExceptionHandlerBundle\Exception\ApiCallExceptionInterface;
+use ExceptionHandlerBundle\Exception\HttpAwareExceptionInterface;
+use ExceptionHandlerBundle\ExceptionHandlerMessages;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
 

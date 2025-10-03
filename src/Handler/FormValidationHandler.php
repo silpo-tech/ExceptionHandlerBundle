@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Handler;
+namespace ExceptionHandlerBundle\Handler;
 
-use SilpoTech\ExceptionHandlerBundle\Exception\FormValidationExceptionInterface;
+use ExceptionHandlerBundle\Exception\FormValidationExceptionInterface;
 use Symfony\Component\Form\FormInterface;
 
 class FormValidationHandler extends ExceptionHandler

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle;
+namespace ExceptionHandlerBundle;
 
-use SilpoTech\ExceptionHandlerBundle\DependencyInjection\Compiler\ExceptionHandlerPass;
+use ExceptionHandlerBundle\DependencyInjection\Compiler\ExceptionHandlerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

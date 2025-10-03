@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\DependencyInjection\Compiler;
+namespace ExceptionHandlerBundle\Tests\DependencyInjection\Compiler;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\DependencyInjection\Compiler\ExceptionHandlerPass;
-use SilpoTech\ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
-use SilpoTech\ExceptionHandlerBundle\Handler\FormValidationHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\MapperExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ValidationHandler;
+use ExceptionHandlerBundle\DependencyInjection\Compiler\ExceptionHandlerPass;
+use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
+use ExceptionHandlerBundle\Handler\FormValidationHandler;
+use ExceptionHandlerBundle\Handler\MapperExceptionHandler;
+use ExceptionHandlerBundle\Handler\ValidationHandler;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class ExceptionHandlerPassTest extends TestCase

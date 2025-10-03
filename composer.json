@@ -23,12 +23,12 @@
   },
   "autoload": {
     "psr-4": {
-      "SilpoTech\\ExceptionHandlerBundle\\": "src/"
+      "ExceptionHandlerBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "SilpoTech\\ExceptionHandlerBundle\\Tests\\": "tests/"
+      "ExceptionHandlerBundle\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "stable",

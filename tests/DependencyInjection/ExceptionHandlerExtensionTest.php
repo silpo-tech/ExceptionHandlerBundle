@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\DependencyInjection;
+namespace ExceptionHandlerBundle\Tests\DependencyInjection;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\DependencyInjection\ExceptionHandlerExtension;
-use SilpoTech\ExceptionHandlerBundle\EventListener\ExceptionListener;
-use SilpoTech\ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\FormValidationHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ValidationHandler;
+use ExceptionHandlerBundle\DependencyInjection\ExceptionHandlerExtension;
+use ExceptionHandlerBundle\EventListener\ExceptionListener;
+use ExceptionHandlerBundle\Handler\BadRequestHttpExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandler;
+use ExceptionHandlerBundle\Handler\FormValidationHandler;
+use ExceptionHandlerBundle\Handler\ValidationHandler;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class ExceptionHandlerExtensionTest extends TestCase
@@ -32,9 +32,9 @@ class ExceptionHandlerExtensionTest extends TestCase
                     BadRequestHttpExceptionHandler::class,
                 ],
                 'excluded' => [
-                    'SilpoTech\ExceptionHandlerBundle\DependencyInjection',
-                    'SilpoTech\ExceptionHandlerBundle\Exception',
-                    'SilpoTech\ExceptionHandlerBundle\Handler\MapperExceptionHandler',
+                    'ExceptionHandlerBundle\DependencyInjection',
+                    'ExceptionHandlerBundle\Exception',
+                    'ExceptionHandlerBundle\Handler\MapperExceptionHandler',
                 ],
             ],
         ];

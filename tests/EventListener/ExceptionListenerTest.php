@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\EventListener;
+namespace ExceptionHandlerBundle\Tests\EventListener;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use SilpoTech\ExceptionHandlerBundle\EventListener\ExceptionListener;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
-use SilpoTech\ExceptionHandlerBundle\Tests\Stub\HttpExceptionStub;
+use ExceptionHandlerBundle\EventListener\ExceptionListener;
+use ExceptionHandlerBundle\Handler\ExceptionHandler;
+use ExceptionHandlerBundle\Handler\ExceptionHandlerResolver;
+use ExceptionHandlerBundle\Tests\Stub\HttpExceptionStub;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;

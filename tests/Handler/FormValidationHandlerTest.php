@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Handler;
+namespace ExceptionHandlerBundle\Tests\Handler;
 
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\Exception\FormValidationException;
-use SilpoTech\ExceptionHandlerBundle\Exception\FormValidationExceptionInterface;
-use SilpoTech\ExceptionHandlerBundle\Handler\FormValidationHandler;
-use SilpoTech\ExceptionHandlerBundle\Tests\Stub\Form\ProductTypeStub;
+use ExceptionHandlerBundle\Exception\FormValidationException;
+use ExceptionHandlerBundle\Exception\FormValidationExceptionInterface;
+use ExceptionHandlerBundle\Handler\FormValidationHandler;
+use ExceptionHandlerBundle\Tests\Stub\Form\ProductTypeStub;
 use Symfony\Component\Form\Extension\Validator\ValidatorExtension;
 use Symfony\Component\Form\FormInterface;
 use Symfony\Component\Form\Forms;

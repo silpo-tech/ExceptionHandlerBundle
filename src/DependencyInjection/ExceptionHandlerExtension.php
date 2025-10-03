@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\DependencyInjection;
+namespace ExceptionHandlerBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

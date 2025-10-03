@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Exception;
+namespace ExceptionHandlerBundle\Exception;
 
 interface HttpAwareExceptionInterface extends \Throwable
 {

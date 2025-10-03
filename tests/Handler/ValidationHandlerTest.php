@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Handler;
+namespace ExceptionHandlerBundle\Tests\Handler;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\Exception\ValidationException;
-use SilpoTech\ExceptionHandlerBundle\Exception\ValidationExceptionInterface;
-use SilpoTech\ExceptionHandlerBundle\ExceptionHandlerMessages;
-use SilpoTech\ExceptionHandlerBundle\Handler\ValidationHandler;
-use SilpoTech\ExceptionHandlerBundle\ValidationHandlerMessages;
+use ExceptionHandlerBundle\Exception\ValidationException;
+use ExceptionHandlerBundle\Exception\ValidationExceptionInterface;
+use ExceptionHandlerBundle\ExceptionHandlerMessages;
+use ExceptionHandlerBundle\Handler\ValidationHandler;
+use ExceptionHandlerBundle\ValidationHandlerMessages;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\ConstraintViolation;
 

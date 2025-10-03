@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Handler;
+namespace ExceptionHandlerBundle\Tests\Handler;
 
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use SilpoTech\ExceptionHandlerBundle\Handler\ExceptionHandler;
-use SilpoTech\ExceptionHandlerBundle\Tests\Stub\ApiCallExceptionStub;
-use SilpoTech\ExceptionHandlerBundle\Tests\Stub\HttpAwareExceptionStub;
-use SilpoTech\ExceptionHandlerBundle\Tests\Stub\HttpExceptionStub;
+use ExceptionHandlerBundle\Handler\ExceptionHandler;
+use ExceptionHandlerBundle\Tests\Stub\ApiCallExceptionStub;
+use ExceptionHandlerBundle\Tests\Stub\HttpAwareExceptionStub;
+use ExceptionHandlerBundle\Tests\Stub\HttpExceptionStub;
 
 class ExceptionHandlerTest extends TestCase
 {

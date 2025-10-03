@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilpoTech\ExceptionHandlerBundle\Tests\Stub\Form;
+namespace ExceptionHandlerBundle\Tests\Stub\Form;
 
 class CategoryStub
 {
