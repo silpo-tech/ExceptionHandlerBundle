@@ -25,7 +25,7 @@ public function registerBundles()
 {
     $bundles = array(
         ...
-        new SilpoTech\ExceptionHandlerBundle\ExceptionHandlerBundle(),
+        new ExceptionHandlerBundle\ExceptionHandlerBundle(),
     );
 }
 ```
@@ -58,7 +58,7 @@ Add configuration to services.yaml:
 ```yaml
 parameters:
   validation_messages_map: !php/const App\Validator\MessageDictionary::ERROR_MAP
-  #or use Symfony Standard SilpoTech\ExceptionHandlerBundle\ValidationHandlerMessages::ERROR_MAP
+  #or use Symfony Standard ExceptionHandlerBundle\ValidationHandlerMessages::ERROR_MAP
 ```
 If you don't need to have properties in snake_case, you can use the following configuration:
 
