@@ -40,7 +40,7 @@ class ValidationHandler extends ExceptionHandler
             switch (true) {
                 case $error instanceof ConstraintViolation:
                     $field = $this->decorateField($error->getPropertyPath());
-                    $message = $this->messagesMap[$error->getCode()] ?? $error->getMessage();
+                    $message = $this->messagesMap[$error->getCode() ?? ''] ?? $error->getMessage();
                     if (!isset($data[$field]) || !in_array($message, $data[$field])) {
                         $data[$field][] = $message;
                     }
