@@ -47,12 +47,12 @@ final readonly class ExceptionListener
         );
     }
 
-    protected function getRequestId(Request $request): ?string
+    private function getRequestId(Request $request): ?string
     {
         return $request->headers->get('x-request-id');
     }
 
-    protected function logException(\Throwable $exception, $message): void
+    private function logException(\Throwable $exception, $message): void
     {
         /* @phpstan-ignore-next-line */
         if (null !== $this->logger) {

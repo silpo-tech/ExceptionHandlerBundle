@@ -50,9 +50,8 @@ class FormValidationHandler extends ExceptionHandler
                 $result += $children;
 
                 return $result;
-            } else {
-                $data += $children;
             }
+            $data += $children;
         }
 
         return $data;
